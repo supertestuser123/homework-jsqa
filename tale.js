@@ -21,6 +21,13 @@ kolobok('заяц');
 kolobok('лиса');
 kolobok();
 
+//task 2
 
+function newYear(name) {
+    return `${name}! ${name}! ${name}!`;
+  }
+  
+console.log(newYear('Дед Мороз'));
+console.log(newYear('Снегурочка'));
 
 
